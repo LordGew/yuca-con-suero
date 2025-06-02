@@ -11,6 +11,9 @@ const Advertising = () => {
           playsInline
           className="absolute top-0 left-0 w-full h-full  object-cover"
         />
+         <div className="relative z-10 flex items-center justify-center h-full text-white text-7xl font-bold bg-black/40 title-server">
+        Bienvenidos al primer servidor de World of Warcraft the War Within
+      </div>
     </div>
   );
 };

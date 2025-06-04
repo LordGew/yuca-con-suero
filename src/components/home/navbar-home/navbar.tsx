@@ -204,6 +204,12 @@ const Navbar = () => {
           </Link>
           <Link
             className="category-link hover:text-gray-400 font-serif"
+            href="/contributions"
+          >
+            Como jugar
+          </Link>
+          <Link
+            className="category-link hover:text-gray-400 font-serif"
             href="/bank"
           >
             {t("navbar.sections.position-three")}

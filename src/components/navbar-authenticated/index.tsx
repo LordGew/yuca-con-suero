@@ -141,6 +141,14 @@ const NavbarAuthenticated = () => {
                     {t("navbar_authenticated.sections.position-three")}
                   </Link>
                 </li>
+                 <li>
+                  <Link
+                    href="/contributions"
+                    className="block rounded-md px-4 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                  >
+                    Como jugar
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="/bank"
@@ -194,6 +202,13 @@ const NavbarAuthenticated = () => {
                 >
                   {t("navbar_authenticated.sections.position-three")}
                 </Link>
+                <Link
+                  className="rounded-md  px-4 py-3 text-x2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white font-serif"
+                  href="/contributions"
+                >
+                  Como jugar
+                </Link>
+                
                 <Link
                   className="rounded-md  px-4 py-3 text-x2 font-medium text-gray-300 hover:bg-gray-700 hover:text-white font-serif"
                   href="/bank"

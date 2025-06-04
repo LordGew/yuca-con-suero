@@ -24,23 +24,22 @@ const Contributions = () => {
             <div className="flex flex-col justify-between max-w-2xl w-full">
               <div>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-7">
-                  ¿Buscas algun guia y descargar el juego?
-                </h2>
+                 ¿Por qué debo usar el cliente de Blizzard y no el de EntropiuX?
+                 </h2>
                 <p className="text-base sm:text-xl lg:text-2xl mb-4 break-words">
-                  Descarga nuestro cliente de World of Warcraft y disfruta de la
-                  experiencia clásica con gráficos mejorados.
+                 Nuestro servidor utiliza el cliente oficial de Blizzard, el cual no proveemos ya que ellos lo actualizan con frecuencia, lo cual podría afectar al servidor.
                 </p>
               </div>
               <div className="mt-8 sm:mt-10">
                 <Link
-                  href="#download"
+                target="_blank"
+                  href="https://download.battle.net/en-us?product=bnetdesk"
                   className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg text-white font-semibold block text-center sm:inline-block"
                 >
-                  ¡Descargar juego!
+                  ¡Cliente Oficial!
                 </Link>
                 <p className="text-lg pt-4 text-center sm:text-left break-words">
-                  Si tienes alguna duda, no dudes en contactarnos a través de
-                  nuestro grupo de WhatsApp. ¡Estamos aquí para ayudarte! 📱💬
+                 Vas a necesitar crear una cuenta para descargar el cliente oficial de wow, no te preocupes, no tendrás que pagar nada.
                 </p>
               </div>
             </div>
@@ -65,28 +64,7 @@ const Contributions = () => {
         </div>
       </div>
 
-      <section className="contenedor  pb-10 pt-20 lg:pb-20 lg:pt-[10px]">
-        <div className="mx-auto max-w-2xl text-center">
-          <h1 className="mb-20 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Addons<span className="sm:block"> Disponibles</span>
-          </h1>
-        </div>
-        <div id="download" className="container">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {addonsAvailable.map((addon, index) => (
-              <SingleCard
-                key={index}
-                image={addon.image}
-                CardTitle={addon.CardTitle}
-                titleHref={addon.titleHref}
-                btnHref={addon.btnHref}
-                CardDescription={addon.CardDescription}
-                Button={addon.Button}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+    
 
       <section>
         <div className="contenedor pt-15 pb-20 space-y-32 lg:space-y-20">
@@ -127,9 +105,18 @@ const Contributions = () => {
                   <h2 className="text-4xl font-bold tracking-tight text-white mt-8">
                     {feature.title}
                   </h2>
-                  <p className="mt-6 text-xl text-gray-300">
-                    {feature.description}
-                  </p>
+                <p className="mt-6 text-xl text-gray-300">
+                  {feature.description}{" "}
+                  <a
+                    href="https://www.entropiux.com/news/17"
+                    className="text-pink-400 underline hover:text-pink-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {feature.sub_title}
+                  </a>{" "}
+                  {feature.description2}
+                </p>
                   <div className="mt-8">
                     <a
                       target="_blank"

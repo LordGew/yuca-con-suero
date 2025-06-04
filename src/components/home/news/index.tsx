@@ -60,7 +60,10 @@ const LatestNewsCarousel = () => {
   const useCenterMode = newsItems.length > 5;
 
   return (
-    <div className="bg-midnight contenedor  mt-10 text-white px-4 py-6 sm:px-8">
+    <div className="bg-midnight contenedor mt-20 text-white px-4 py-6 sm:px-8">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-yellow-400">
+        Últimas Noticias
+      </h2>
       <Carousel
         showArrows={hasMultiple}
         infiniteLoop={hasMultiple}

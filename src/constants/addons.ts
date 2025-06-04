@@ -14,11 +14,11 @@
 */
 export const addonsAvailable = [
     {
-        image: "https://static.wixstatic.com/media/5dd8a0_8c5b7a3a15014ad599ca7a0d6d6dfa35~mv2.jpg",
-        CardTitle: "Launcher",
-        titleHref: "https://www.mediafire.com/file/vrjxkd7hugh2x7x/Entropiux_Launcher.rar/file",
-        btnHref: "https://www.mediafire.com/file/vrjxkd7hugh2x7x/Entropiux_Launcher.rar/file",
-        CardDescription: "Accede a tu cuenta de juego y descarga el cliente de juego desde aquí.",
-        Button: "Descargar"
+        image: "https://c.wallhere.com/photos/9c/e8/World_of_Warcraft_World_of_Warcraft_The_War_Within_Warcraft_Blizzard_Entertainment-2285864.jpg!s1",
+        CardTitle: "EntropiuX Launcher",
+        titleHref: "https://www.entropiux.com/news/17",
+        btnHref: "https://www.entropiux.com/news/17",
+        CardDescription: "Nosotros lo hacemos simple, sigue nuestra guía aquí",
+        Button: "Guia de Instalación",
     }
 ];

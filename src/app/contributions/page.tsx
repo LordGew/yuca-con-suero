@@ -24,10 +24,10 @@ const Contributions = () => {
             <div className="flex flex-col justify-between max-w-2xl w-full">
               <div>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-7">
-                 ¿Por qué debo usar el cliente de Blizzard y no el de EntropiuX?
+                 ¿Por qué debo usar el cliente de Retail y no el de EntropiuX?
                  </h2>
                 <p className="text-base sm:text-xl lg:text-2xl mb-4 break-words">
-                 Nuestro servidor utiliza el cliente oficial de Blizzard, el cual no proveemos ya que ellos lo actualizan con frecuencia, lo cual podría afectar al servidor.
+                 Nuestro servidor utiliza el cliente oficial de Retail, el cual no proveemos ya que ellos lo actualizan con frecuencia, lo cual podría afectar negativamente  al servidor.
                 </p>
               </div>
               <div className="mt-8 sm:mt-10">

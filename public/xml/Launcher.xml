@@ -4,7 +4,7 @@
 <!-- Launcher Settings -->
   <Settings>
     <!-- Make sure it's embed video url -->
-    <YoutubeVideoURL>https://www.youtube.com/watch?v=rrbgIPKg28s&t=2s/</YoutubeVideoURL>
+    <YoutubeVideoURL>https://www.youtube.com/embed/2NGqF7lJtm0</YoutubeVideoURL>
   </Settings>
   
 <!-- Launcher's top bar links -->

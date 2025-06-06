@@ -22,13 +22,13 @@
   <Articles>
   
   <!-- Article example -->
-    <Article title="Cómo instalar addons" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news/18">
+    <Article title="Cómo instalar addons" author="EntropiuX" avatarurl="https://static.wixstatic.com/media/e6fd54_e16de519a5a94c0cbc023cec9fcf96cf~mv2.png" articleurl="https://www.entropiux.com/news/18">
         You can click on the article title or the article text to navigate to the article url
     </Article>
     <!-- End of article example -->
   
   <!-- Article example -->
-    <Article title="Atascado? Teleport en la web!" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news/14">
+    <Article title="Atascado? Teleport en la web!" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=tru" articleurl="https://www.entropiux.com/news/14">
         You can click on the article title or the article text to navigate to the article url
     </Article>
     <!-- End of article example -->

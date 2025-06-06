@@ -4,7 +4,7 @@
 <!-- Launcher Settings -->
   <Settings>
     <!-- Make sure it's embed video url -->
-    <YoutubeVideoURL>https://www.youtube.com/</YoutubeVideoURL>
+    <YoutubeVideoURL>https://www.youtube.com/watch?v=rrbgIPKg28s&t=2s/</YoutubeVideoURL>
   </Settings>
   
 <!-- Launcher's top bar links -->
@@ -13,7 +13,7 @@
     <Discord name="DISCORD">https://discord.com/invite/join-entropiux/</Discord>
     <Forum name="FORUM">https://www.entropiux.com/help/</Forum>
     <Register name="REGISTER">https://www.entropiux.com/register/</Register>
-    <Vote name="VOTE US">https://www.entropiux.com/vote</Vote>
+    <Vote name="VOTE US">https://www.entropiux.com/</Vote>
     <Donate name="DONATE">https://www.entropiux.com/store/</Donate>
     <NewsPage name="Click here to visit the news page">https://www.entropiux.com/news/</NewsPage>
   </Links>
@@ -22,19 +22,19 @@
   <Articles>
   
   <!-- Article example -->
-    <Article title="First article here" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news">
+    <Article title="Cómo instalar addons" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news/18">
         You can click on the article title or the article text to navigate to the article url
     </Article>
     <!-- End of article example -->
   
   <!-- Article example -->
-    <Article title="Second article here" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news">
+    <Article title="Atascado? Teleport en la web!" author="EntropiuX" avatarurl="https://github.com/CyberMist2/test/blob/master/sylvanas_avatar_2.jpg?raw=true" articleurl="https://www.entropiux.com/news/14">
         You can click on the article title or the article text to navigate to the article url
     </Article>
     <!-- End of article example -->
   
   <!-- Article example -->
-    <Article title="Third article here" author="Anonymous" avatarurl="https://www.entropiux.com/news" articleurl="https://www.entropiux.com/">
+    <Article title="Last hotfix" author="Anonymous" avatarurl="https://www.entropiux.com/news" articleurl="https://www.entropiux.com/news/19">
         You can click on the article title or the article text to navigate to the article url
     </Article>
     <!-- End of article example -->
